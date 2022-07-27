@@ -1,0 +1,14 @@
+.app{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.app_body{
+  display: flex;
+  background-color: #e4e8ec;
+}
+

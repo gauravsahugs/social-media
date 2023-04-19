@@ -6,7 +6,6 @@ import {
   styled,
   Card,
   Avatar,
-  CardMedia,
 } from "@mui/material";
 //@mui
 import MoreVertIcon from "@mui/icons-material/MoreVert";
@@ -19,7 +18,6 @@ import SmsIcon from "@mui/icons-material/Sms";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { useState } from "react";
 import { data } from "./mockData";
-import { Image } from "@mui/icons-material";
 
 const RootStyle = styled("div")(({ theme }) => ({
   maxWidth: "1536px",

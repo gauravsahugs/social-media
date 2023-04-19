@@ -16,7 +16,6 @@ function App() {
         <Feed />
         <Widgets />
       </div>
-      <div className="widget"></div>
     </div>
   );
 }

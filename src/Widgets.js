@@ -11,7 +11,7 @@ function Widgets() {
   );
 
   return (
-    <div>
+    <div className="widget_box">
       <div className="widgets">
         <div className="widgets_header">
           <h3>LinkedIn News</h3>
@@ -34,16 +34,16 @@ function Widgets() {
           </div>
         </div>
       </div>
-      <div className="about">
-        <p>About</p>
-        <p> Accessibility</p>
-        <p> Help Center</p>
-        <p>Privacy & Terms</p>
-        <p> Ad Choices Advertising</p>
-        <p> Business Services</p>
-        <p> Get the LinkedIn app</p>
-        <p> More</p>
-        <p>LinkedIn Corporation © 2022</p>
+      <div className="widgets">
+        <h5 className="widgets_about">About</h5>
+        <h5 className="widgets_about"> Accessibility</h5>
+        <h5 className="widgets_about"> Help Center</h5>
+        <h5 className="widgets_about"> Privacy & Terms</h5>
+        <h5 className="widgets_about"> Ad Choices Advertising</h5>
+        <h5 className="widgets_about"> Business Services</h5>
+        <h5 className="widgets_about"> Get the LinkedIn app</h5>
+        <h5 className="widgets_about"> More</h5>
+        <h5 className="widgets_about">LinkedIn Corporation © 2022</h5>
       </div>
     </div>
   );

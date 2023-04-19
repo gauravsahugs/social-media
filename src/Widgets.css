@@ -1,7 +1,6 @@
 .widgets{
-    position: sticky;
     top: 80px;
-    flex: 0.2;
+    flex: 0.3;
     border-radius: 10px;
     text-align: center;
     height: fit-content;
@@ -57,5 +56,33 @@
         .about{
             display: flex;
             align-items: center;
+            flex-direction: column;
             position: absolute;
         }
+
+
+        .widgets_about{
+            display: flex;
+            font-size: 13px;
+            align-items: center;
+            color: gray;
+            font-weight: bolder;
+            justify-content: center;
+            padding: 5px;
+            padding-bottom: 2px;
+            cursor: pointer;
+        }
+    
+        .widgets_about:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    
+        }
+
+
+        .widget_box{
+            position: sticky;
+     
+            }

@@ -6,6 +6,7 @@ import ImageIcon from "@mui/icons-material/Image";
 import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
 import EventNoteIcon from "@mui/icons-material/EventNote";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+import FeedCard from "./FeedCard";
 
 function Feed() {
   const [input, setInput] = useState("");
@@ -40,6 +41,8 @@ function Feed() {
           </div>
         </div>
       </div>
+
+      <FeedCard />
     </div>
   );
 }

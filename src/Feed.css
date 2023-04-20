@@ -1,19 +1,15 @@
 .feed{
-    flex: 0.6;
     margin-top: 20px;
  margin-left: 20px;
 margin-right: 20px;
-
 }
 
 .feed_top{
-    
     background-color: white;
     border-radius: 10px;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid lightgray;
-    
 }
 
 .feed_inputContianer{

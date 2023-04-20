@@ -19,9 +19,7 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { useState } from "react";
 import { data } from "./mockData";
 
-const RootStyle = styled("div")(({ theme }) => ({
-  maxWidth: "1536px",
-  width: "100%",
+const RootStyle = styled("div")(() => ({
   margin: "0 auto",
   "& fieldset": {
     border: "none !important",
@@ -44,10 +42,10 @@ const FeedCard = () => {
         {/*-------------------------------- image info card 1------------------------------ */}
 
         {data.map((item, index) => (
-          <Box py={2} key={index}>
+          <Box py={2} key={item}>
             <Card
               sx={{
-                width: { xs: "370px", sm: "822px" },
+                width: { xs: "370px", sm: "722px" },
                 boxShadow: "0px 12px 24px -4px #919eab1f",
                 borderRadius: "16px",
               }}
@@ -56,7 +54,7 @@ const FeedCard = () => {
                 direction="row"
                 justifyContent={"space-between"}
                 pt={3}
-                sx={{ width: { sm: "764px", xs: "330px" }, margin: "0 auto " }}
+                sx={{ width: { sm: "664px", xs: "330px" }, margin: "0 auto " }}
               >
                 <Stack direction={"row"} gap={2}>
                   <Avatar src={item.avatar} />
@@ -80,7 +78,7 @@ const FeedCard = () => {
               <Stack
                 py={2}
                 variant="body1"
-                sx={{ width: { sm: "764px", xs: "330px" }, margin: "0 auto " }}
+                sx={{ width: { sm: "664px", xs: "330px" }, margin: "0 auto " }}
               >
                 <Typography>{item.description}</Typography>
               </Stack>
@@ -91,7 +89,7 @@ const FeedCard = () => {
                 direction={"row"}
                 py={4}
                 sx={{
-                  width: { sm: "764px", xs: "330px" },
+                  width: { sm: "664px", xs: "330px" },
                   height: "40px",
                   alignItems: "center",
                   margin: "0 auto",
@@ -125,7 +123,7 @@ const FeedCard = () => {
                 direction={"row"}
                 pb={3}
                 gap={2.4}
-                sx={{ width: { sm: "764px", xs: "330px" }, margin: "0 auto " }}
+                sx={{ width: { sm: "664px", xs: "330px" }, margin: "0 auto " }}
                 alignItems={"center"}
               >
                 <Avatar
@@ -136,7 +134,7 @@ const FeedCard = () => {
                   gap={1}
                   px={1}
                   sx={{
-                    width: { sm: "764px", xs: "240px" },
+                    width: { sm: "664px", xs: "240px" },
                     height: "40px",
                     borderRadius: "8px",
                     border: "1px solid rgba(145, 158, 171, 0.32)",
@@ -146,7 +144,7 @@ const FeedCard = () => {
                     justifyContent: "center",
                     alignItems: "center",
                     "& input": {
-                      width: "595px",
+                      width: "495px",
                       height: "40px",
                       padding: "0px",
                     },

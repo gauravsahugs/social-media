@@ -20,11 +20,10 @@ flex-direction: column;
 align-items: center;
 border: 1px solid lightgray;
 border-bottom: 0;
+padding-bottom: 15px;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 background-color: white;
-padding-bottom: 10px;
-
 }
 
 
@@ -63,12 +62,12 @@ object-fit: cover;
    
    
     border: 1px solid lightgray;
- margin-bottom: 10px;
+    padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: white;
-    padding: 10px;
-    
+    margin-bottom: 15px;
+
     }
 
     .sidebar_bottom{
@@ -78,7 +77,7 @@ border: 1px solid lightgray;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 background-color: white;
-padding-bottom: 10px;
+padding: 15px;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
     }

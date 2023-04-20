@@ -29,7 +29,7 @@ function Header() {
         <HeaderOption Icon={ChatIcon} title="Messaging" />
         <HeaderOption Icon={NotificationsIcon} title="Notification" />
         <HeaderOption
-          avatar="https://media-exp1.licdn.com/dms/image/C4D03AQHdueqIM_Q_EQ/profile-displayphoto-shrink_100_100/0/1655471816110?e=1662595200&v=beta&t=xQ1jGQ5k7N--X27L7zDaDNvHj2HhwBL-kna7RMMEKPI"
+          avatar="https://staticg.sportskeeda.com/editor/2022/01/410ce-16424556600474-1920.jpg"
           title="Me"
         />
       </div>

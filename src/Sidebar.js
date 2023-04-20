@@ -19,7 +19,7 @@ function Sidebar() {
         />
         <Avatar
           className="sidebar_avatar"
-          src="https://media-exp1.licdn.com/dms/image/C4D03AQHdueqIM_Q_EQ/profile-displayphoto-shrink_100_100/0/1655471816110?e=1662595200&v=beta&t=xQ1jGQ5k7N--X27L7zDaDNvHj2HhwBL-kna7RMMEKPI"
+          src="https://staticg.sportskeeda.com/editor/2022/01/410ce-16424556600474-1920.jpg"
         />
         <h2> Gaurav Sahu</h2>
         <h4>sahugaurav80@gmail.com</h4>
@@ -36,7 +36,7 @@ function Sidebar() {
         </div>
       </div>
       <div className="sidebar_bottom">
-        <p>Recent</p>
+        <h4>Recent</h4>
         {recentItem("reactjs")}
         {recentItem("programming")}
         {recentItem("redux")}

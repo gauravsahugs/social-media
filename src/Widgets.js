@@ -22,10 +22,6 @@ function Widgets() {
             {news("Startup layoffs worry senior leaders")}
             <p className="widgets_statNumber">3d ago - 112 readers</p>
             {news("Google to pull back on hiring")}
-            <p className="widgets_statNumber">24m ago - 222 readers</p>
-            {news("Is Marvel's output less marvelous?")}
-            <p className="widgets_statNumber">3m ago - 52 readers</p>
-            {news("Is remote work all it's made out to be?")}
             <p className="widgets_statNumber">1d ago - 78952 readers</p>
             {news("Choosing work from home for good")}
             <p className="widgets_statNumber">4d ago - 10252 readers</p>
@@ -41,9 +37,7 @@ function Widgets() {
         <h5 className="widgets_about"> Privacy & Terms</h5>
         <h5 className="widgets_about"> Ad Choices Advertising</h5>
         <h5 className="widgets_about"> Business Services</h5>
-        <h5 className="widgets_about"> Get the LinkedIn app</h5>
-        <h5 className="widgets_about"> More</h5>
-        <h5 className="widgets_about">LinkedIn Corporation © 2022</h5>
+        <h5 className="widgets_about">© Proudly made by Gaurav Sahu</h5>
       </div>
     </div>
   );
